@@ -1,5 +1,8 @@
 # Exercise 7 - Advanced Marta Interface (Continued)
 
+Video Link: https://youtu.be/ChYgnlVcR0I
+
+
 ## Description
 In this exercise, bootcampers will familiarize themselves with routing.
 

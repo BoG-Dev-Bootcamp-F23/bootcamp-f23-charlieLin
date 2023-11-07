@@ -1,0 +1,187 @@
+.lines-page-container {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  font-family: "Oswald", sans-serif;
+}
+
+.lines-page-line-color-button-container {
+  display: flex;
+  justify-content: space-evenly;
+  list-style: none;
+  margin: 0;
+  padding: 10px 0px;
+  box-shadow: 0px 2px 2px rgb(179, 179, 179);
+}
+
+.lines-page-line-color-button > button {
+  font-size: 25px;
+  font-family: "Oswald", sans-serif;
+  cursor: pointer;
+}
+
+.header {
+  text-align: center;
+  box-shadow: 0px 2px 2px rgb(179, 179, 179);
+  margin: 0;
+  padding: 10px 20px 20px 20px;
+  font-size: 4em;
+}
+
+.lines-page-info-container {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 0.25fr 1fr;
+}
+
+.navbar-container {
+  color: rgb(230, 228, 225);
+  background-color: rgb(26, 21, 11);
+  padding-right: 80px;
+}
+
+.navbar-header {
+  color: rgb(139, 122, 111);
+  font-size: 23px;
+  padding: 0px 15px;
+  margin-bottom: 0px;
+}
+
+.navbar-ul {
+  list-style: none;
+  padding: 0;
+}
+
+.navbar-ul li {
+  border-bottom: solid 3px;
+  color: rgba(255, 255, 255, 0.753);
+  font-size: 28px;
+  padding: 15px 40px;
+}
+
+.line-button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.line-button {
+  margin: 20px 10px;
+  background-color: transparent;
+  padding: 5px 45px;
+  border: 1px solid black;
+  border-radius: 4px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.train-item-container {
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 12fr 1fr;
+  max-width: 100%;
+  font-size: 1.5em;
+  border-bottom: solid 3px;
+  margin-left: 80px;
+}
+
+.train-item-og-destination {
+  margin-bottom: 0;
+  font-size: 1.5em;
+}
+
+.train-item-logo {
+  font-weight: "bold";
+  font-size: 2.5em;
+}
+
+.train-item-line-delay {
+  display: flex;
+  margin: 0;
+}
+
+.train-item-line-delay > p {
+  max-height: 39px;
+  margin-top: 24px;
+}
+
+.train-item-station-description {
+  font-weight: bold;
+  margin-left: 50px;
+}
+
+.train-item-info {
+  display: flex;
+  justify-content: space-between;
+}
+
+.train-item-arrival-time {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 150px;
+  margin-right: 150px;
+  margin-top: 0;
+}
+
+.train-item-line-GOLD {
+  background-color: goldenrod;
+  border: 1px solid transparent;
+  border-radius: 15px;
+  color: white;
+  padding: 1px 35px 3px 35px;
+  margin-top: 0;
+  margin-right: 15px;
+}
+
+.train-item-line-RED {
+  background-color: rgba(255, 0, 0, 0.712);
+  border: 1px solid transparent;
+  border-radius: 15px;
+  color: white;
+  padding: 1px 35px 3px 35px;
+  margin-top: 0;
+  margin-right: 15px;
+}
+
+.train-item-line-BLUE {
+  background-color: rgb(25, 0, 255);
+  border: 1px solid transparent;
+  border-radius: 15px;
+  color: white;
+  padding: 1px 35px 3px 35px;
+  margin-top: 0;
+  margin-right: 15px;
+}
+
+.train-item-line-GREEN {
+  background-color: rgba(0, 134, 0, 0.616);
+  border: 1px solid transparent;
+  border-radius: 15px;
+  color: white;
+  padding: 1px 35px 3px 35px;
+  margin-top: 0;
+  margin-right: 15px;
+}
+
+.train-item-arrival-time {
+  font-size: 1.5em;
+}
+
+.train-item-arrival-time > p {
+  margin: 0;
+}
+
+.train-item-delayed {
+  color: red;
+}
+
+.train-item-on-time {
+  color: rgb(26, 197, 26);
+}
+
+.active-button {
+  background-color: black;
+  color: white;
+}
