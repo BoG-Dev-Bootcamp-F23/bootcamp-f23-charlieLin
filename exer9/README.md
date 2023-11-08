@@ -2,6 +2,8 @@
 
 #Video link - https://youtu.be/spLYvDPpaDs
 
+##2:00 am UPDATE: In the video I had to restart my server whenever I touch any ticket again using a different CRUD request, and I finally found the problem for the OverWriteModelError. I literally exported the wrong schema name 😭😭😭 "export default mongoose.models?.Tickets || mongoose.model("Ticket", ticketSchema)" => "export default mongoose.models?.Ticket || mongoose.model("Ticket", ticketSchema)". im sorry yall😀 it works fine now, meaning i do not need to restart the server anymore.
+
 ## Description
 In this exercise, bootcampers will familiarize themselves with MongoDB schemas/models, CRUD operations, and making request through API endpoints in Next.
 
